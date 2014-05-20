@@ -1,0 +1,11 @@
+{
+  "name" : "shoelace-ui-palette-solarized",
+  "version" : "0.0.1",
+  "description" : "Solarized color palette",
+  "repository" : "https://github.com/shoelace-ui/palette-solarized.git",
+  "keywords" : ["shoelace", "color", "palette", "solarized"],
+  "author" : "Michael Andrew Vanasse <mail@mndvns.com>",
+  "license" : "MIT",
+  "dependencies": {
+  }
+}
