@@ -5,7 +5,7 @@ Solarized color palette.
 ## Installation
 
 ```sh
-$ npm install git://github.com/shoelace-ui/palette-solarized.git
+$ shoelace-ui-palette-solaraized
 ```
 
 ## License
