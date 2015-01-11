@@ -1,24 +1,30 @@
 /**
+ * Module dependencies.
+ */
+
+json('raw-solarized/colors.json', true, 'solarized--')
+
+/**
  * Define palette colors.
  */
 
-palette--blue    ?= #268BD2
-palette--cyan    ?= #2AA198
-palette--green   ?= #859900
-palette--magenta ?= #D33682
-palette--orange  ?= #CB4B16
-palette--red     ?= #DC322F
-palette--violet  ?= #6C71C4
-palette--yellow  ?= #B58900
+palette--blue    ?= solarized--blue-hex
+palette--cyan    ?= solarized--cyan-hex
+palette--green   ?= solarized--green-hex
+palette--magenta ?= solarized--magenta-hex
+palette--orange  ?= solarized--orange-hex
+palette--red     ?= solarized--red-hex
+palette--violet  ?= solarized--violet-hex
+palette--yellow  ?= solarized--yellow-hex
 
 /**
  * Define palette grayscale.
  */
 
-palette--gray-base     ?= #657B83
-palette--gray-light    ?= #839496
-palette--gray-lighter  ?= #93A1A1
-palette--gray-lightest ?= #EEE8D5
-palette--gray-dark     ?= #586E75
-palette--gray-darker   ?= #073642
-palette--gray-darkest  ?= #002B36
+palette--gray-base     ?= solarized--base00-hex
+palette--gray-light    ?= solarized--base0-hex
+palette--gray-lighter  ?= solarized--base1-hex
+palette--gray-lightest ?= solarized--base2-hex
+palette--gray-dark     ?= solarized--base01-hex
+palette--gray-darker   ?= solarized--base02-hex
+palette--gray-darkest  ?= solarized--base03-hex
